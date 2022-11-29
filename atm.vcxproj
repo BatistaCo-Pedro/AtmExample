@@ -128,12 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AccountInformation.cpp" />
-    <ClCompile Include="atm.cpp" />
+    <ClCompile Include="Atm.cpp" />
     <ClCompile Include="Balances.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="CardReader.cpp" />
     <ClCompile Include="CashDispenser.cpp" />
-    <ClCompile Include="CostumerConsole.cpp" />
+    <ClCompile Include="CustomerConsole.cpp" />
     <ClCompile Include="Deposit.cpp" />
     <ClCompile Include="EnvelopeAcceptor.cpp" />
     <ClCompile Include="InetAddress.cpp" />

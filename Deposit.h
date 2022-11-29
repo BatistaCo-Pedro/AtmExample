@@ -12,6 +12,7 @@ private:
 	int to;
 	Money amount;
 public:
+	inline Deposit() {}
 	Deposit(Atm atm, Session session, Card card, int pin);
 protected:
 	Message getSpecificsCustomer(); //Throws Cancelled

@@ -34,6 +34,7 @@ private:
 	const int IDLE_STATE;
 	const int SERVING_CUSTOMER_STATE;
 public:
+	inline Atm() {}
 	Atm(int id, string place, string bankName, InetAddress bankAddress);
 	void run();
 	void switchOn();

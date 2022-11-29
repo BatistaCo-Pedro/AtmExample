@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="atm.cpp">
+    <ClCompile Include="Atm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CardReader.cpp">
@@ -45,7 +45,7 @@
     <ClCompile Include="Status.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CostumerConsole.cpp">
+    <ClCompile Include="CustomerConsole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EnvelopeAcceptor.cpp">

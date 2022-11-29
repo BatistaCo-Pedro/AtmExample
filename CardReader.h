@@ -6,6 +6,7 @@ class CardReader
 	private:
 		Atm atm;
 	public:
+		inline CardReader() {};
 		CardReader(Atm atm);
 		Card readCard();
 		void ejectCard();

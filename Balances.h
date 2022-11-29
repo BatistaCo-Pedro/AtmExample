@@ -7,7 +7,7 @@ class Balances
 		Money total;
 		Money available;
 	public:
-		Balances();
+		inline Balances() {}
 		void setBalances(Money total, Money available);
 		Money getTotal();
 		Money getAvailable();

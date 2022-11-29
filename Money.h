@@ -8,6 +8,7 @@ class Money
 private:
 	long cents;
 public:
+	inline Money() { this->cents = 0; }
 	Money(int dollars);
 	Money(int dollars, int cents);
 	

@@ -6,6 +6,7 @@ class EnvelopeAcceptor
 private:
 	Log log;
 public:
+	inline EnvelopeAcceptor() {}
 	EnvelopeAcceptor(Log log);
 	void acceptEnvelope(); //throws Cancelled Exception
 };

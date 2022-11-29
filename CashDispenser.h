@@ -8,8 +8,9 @@ class CashDispenser
 		Log log;
 		Money cashOnHand;
 	public:
+		inline CashDispenser() {}
 		CashDispenser(Log log);
-		void setInitalCash(Money initialCash);
+		void setInitialCash(Money initialCash);
 		bool checkCashOnHand(Money amount);
 		void dispenseCash(Money amount);
 };
