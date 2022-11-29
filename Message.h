@@ -14,13 +14,13 @@ private:
 	int serialNumber;
 	int fromAccount;
 	int toAccount;
-	int amount;
+	Money amount;
 public:
-	const int WITHDRAWAL;
-	const int INITIATE_DEPOSIT;
-	const int COMPLETE_DEPOSIT;
-	const int TRANSFER;
-	const int INQUIRY;
+	inline const int WITHDRAWAL = 0;
+	const int INITIATE_DEPOSIT = 1;
+	const int COMPLETE_DEPOSIT = 2;
+	const int TRANSFER = 3;
+	const int INQUIRY = 4;
 
 	Message(int messageCode, Card cardNumber, int pin, int serialNumber,
 		int fromAccount, int toAccount, Money amount);
