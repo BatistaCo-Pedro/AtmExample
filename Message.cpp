@@ -1,4 +1,7 @@
 #include "Message.h"
+#include "Card.h"
+#include <string>
+#include "Money.h"
 
 Message::Message(int messageCode, Card cardNumber, int pin, int serialNumber,
 	int fromAccount, int toAccount, Money amount) {
@@ -12,7 +15,7 @@ Message::Message(int messageCode, Card cardNumber, int pin, int serialNumber,
 }
 
 string Message::toString() {
-    string result = "";
+    std::string result = "";
 
     switch (messageCode)
     {

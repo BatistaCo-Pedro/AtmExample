@@ -2,6 +2,8 @@
 #include "Message.h"
 #include "Status.h"
 #include "Money.h"
+#include "Status.h"
+#include "Message.h"
 
 class Log
 {
